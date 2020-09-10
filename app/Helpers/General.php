@@ -9,7 +9,7 @@ namespace App\Helpers;
  *
  * @category General
  * @package  General
- * @author   Sugiarto <sugiarto.dlingo@gmail.com>
+ * @author   hangga <hangga.dlingo@gmail.com>
  * @license  https://opensource.org/licenses/MIT MIT License
  * @link     http://localhost/
  */

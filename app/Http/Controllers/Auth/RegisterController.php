@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Validator;
  *
  * @category RegisterController
  * @package  RegisterController
- * @author   Sugiarto <sugiarto.dlingo@gmail.com>
+ * @author   hangga <hangga.dlingo@gmail.com>
  * @license  https://opensource.org/licenses/MIT MIT License
  * @link     http://localhost/
  */

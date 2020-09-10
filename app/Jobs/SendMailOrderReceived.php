@@ -15,7 +15,7 @@ use Illuminate\Queue\SerializesModels;
  *
  * @category SendMailOrderReceived
  * @package  SendMailOrderReceived
- * @author   Sugiarto <sugiarto.dlingo@gmail.com>
+ * @author   hangga <hangga.dlingo@gmail.com>
  * @license  https://opensource.org/licenses/MIT MIT License
  * @link     http://localhost/
  */

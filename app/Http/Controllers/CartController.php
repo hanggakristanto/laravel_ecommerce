@@ -14,7 +14,7 @@ use App\Models\ProductInventory;
  *
  * @category CartController
  * @package  CartController
- * @author   Sugiarto <sugiarto.dlingo@gmail.com>
+ * @author   hangga <hangga.dlingo@gmail.com>
  * @license  https://opensource.org/licenses/MIT MIT License
  * @link     http://localhost/
  */
@@ -104,7 +104,7 @@ class CartController extends Controller
 		\Cart::add($item);
 
 		\Session::flash('success', 'Product '. $item['name'] .' has been added to cart');
-		return redirect('/product/'. $slug);
+		return redirect('/carts/');
 	}
 
 	/**

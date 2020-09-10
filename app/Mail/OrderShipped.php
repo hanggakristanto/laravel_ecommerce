@@ -14,7 +14,7 @@ use Illuminate\Queue\SerializesModels;
  *
  * @category OrderShipped
  * @package  OrderShipped
- * @author   Sugiarto <sugiarto.dlingo@gmail.com>
+ * @author   hangga <hangga.dlingo@gmail.com>
  * @license  https://opensource.org/licenses/MIT MIT License
  * @link     http://localhost/
  */

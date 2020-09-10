@@ -17,7 +17,7 @@ use App\Authorizable;
  *
  * @category ShipmentController
  * @package  ShipmentController
- * @author   Sugiarto <sugiarto.dlingo@gmail.com>
+ * @author   hangga <hangga.dlingo@gmail.com>
  * @license  https://opensource.org/licenses/MIT MIT License
  * @link     http://localhost/
  */

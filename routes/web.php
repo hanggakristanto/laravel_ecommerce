@@ -8,7 +8,7 @@
  *
  * @category WebRoutes
  * @package  WebRoutes
- * @author   Sugiarto <sugiarto.dlingo@gmail.com>
+ * @author   hangga <hangga.dlingo@gmail.com>
  * @license  https://opensource.org/licenses/MIT MIT License
  * @link     http://localhost/
  */
@@ -41,6 +41,12 @@ Route::resource('favorites', 'FavoriteController');
 
 Route::get('profile', 'Auth\ProfileController@index');
 Route::post('profile', 'Auth\ProfileController@update');
+
+Route::get('ask', 'HomeController@ask');
+Route::get('about', 'HomeController@about');
+Route::get('desain', 'HomeController@desain');
+Route::get('donasi', 'HomeController@donasi');
+Route::get('all_popular', 'ProductController@all_popular');
 
 Route::group(
 	['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => ['auth']],

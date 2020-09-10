@@ -18,7 +18,7 @@ use Str;
  *
  * @category ProductController
  * @package  ProductController
- * @author   Sugiarto <sugiarto.dlingo@gmail.com>
+ * @author   hangga <hangga.dlingo@gmail.com>
  * @license  https://opensource.org/licenses/MIT MIT License
  * @link     http://localhost/
  */
@@ -86,8 +86,17 @@ class ProductController extends Controller
 		$products = $this->_filterProductsByAttribute($products, $request);
 		$products = $this->_sortProducts($products, $request);
 
-		$this->data['products'] = $products->paginate(9);
+		$this->data['products'] = $products->paginate(8);
 		return $this->loadTheme('products.index', $this->data);
+	}
+
+	public function all_popular(Request $request)
+	{
+		
+		$products = Product::allpopular()->get();
+		$this->data['products'] = $products;
+
+		return $this->loadTheme('partials/all_popular_products', $this->data);
 	}
 
 	/**
